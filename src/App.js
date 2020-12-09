@@ -1,5 +1,7 @@
+import Container from "./components/Container";
+
 function App() {
-  return <div>Fresh app</div>;
+  return <Container></Container>;
 }
 
 export default App;
