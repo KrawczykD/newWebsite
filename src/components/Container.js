@@ -40,8 +40,9 @@ class Container extends React.Component {
         header: "What I created",
         0: {
           title: "Title for first position1",
-          description: "",
-          img: "",
+          description:
+            "This is an Landis + Gyr app created in react for createing reports lorem loremloremloremloremlorem lorem lorem vvloremlorem lorem",
+          img: require("../assets/1.jpg"),
           url: "https://krawczykd.github.io/store/",
         },
         1: {

@@ -62,7 +62,7 @@ const SkillsDiv = styled.div`
       display: block;
       text-align: center;
       padding-top: 30px;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
 
     span + span {

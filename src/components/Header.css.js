@@ -45,7 +45,7 @@ const HeaderDiv = styled.div`
     border-left: 2px solid ${(props) => props.theme.mainColor};
     top: 0px;
     left: 0px;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-name: extend;
   }
 
