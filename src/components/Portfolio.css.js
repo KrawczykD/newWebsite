@@ -25,6 +25,8 @@ const PortfolioDiv = styled.div`
   }
 
   & > div > p {
+    display: flex;
+    margin: 0;
     padding: 20px;
     font-size: 1.2rem;
     background-color: ${(props) => props.theme.mainColor};
@@ -37,7 +39,15 @@ const PortfolioDiv = styled.div`
     justify-content: center;
   }
 
-  & > div > .slideShow > section > img {
+  & > div > .slideShow > section > div > p {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  & > div > .slideShow > section > a > img {
     width: 100%;
   }
 

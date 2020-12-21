@@ -7,9 +7,8 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import img0 from "../assets/1.jpg";
 import img1 from "../assets/2.jpg";
 import img2 from "../assets/3.jpg";
-import img3 from "../assets/4.jpg";
 
-const images = [img0, img1, img2, img3];
+const images = [img0, img1, img2];
 
 const Portfolio = (props) => {
   let projects = [];
@@ -41,9 +40,13 @@ const Portfolio = (props) => {
   let list = projects.map((item) => (
     <section>
       <h3>{item.key.title}</h3>
-      <img src={images[item.img]} />
+      <a href={item.key.url}>
+        <img src={images[item.img]} />
+      </a>
       {/* <img src={`../assets/1.jpg`}></img> */}
-      <div>{item.key.description}</div>
+      <div>
+        <p>{item.key.description}</p>
+      </div>
     </section>
   ));
 

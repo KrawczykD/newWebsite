@@ -39,49 +39,51 @@ class Container extends React.Component {
       portfolio: {
         header: "What I created",
         0: {
-          title: "Title for first position1",
+          title: "SAP Reports generator.",
           description:
-            "This is an Landis + Gyr app created in react for createing reports lorem loremloremloremloremlorem lorem lorem vvloremlorem lorem",
-          img: require("../assets/1.jpg"),
-          url: "https://krawczykd.github.io/store/",
+            "Aplication for generating reports based on informations from SAP. You can downlaods ready reports or save to database.",
+          img: "",
+          url: "https://krawczykd.github.io/excel_reports/",
         },
         1: {
-          title: "Title for first position2",
-          description: "",
+          title: "Store pallets application.",
+          description:
+            "This aplication was created for manage pallets in store. Each palet have unique id and required information. You can generate pallet card if necessery. You have easy acces to archive if you need information about deleted pallet.",
           img: "",
-          url: "",
+          url: "https://krawczykd.github.io/store/",
         },
         2: {
-          title: "Title for first position3",
-          description: "",
+          title: "My personal website",
+          description:
+            "This is my website build in React. This site use, styled component for css, emailjs for sent messages, React hooks and more commone techniques. ",
           img: "",
-          url: "",
-        },
-        3: {
-          title: "Title for first position4",
-          description: "",
-          img: "",
-          url: "",
+          url: "http://damiankrawczyk.co.uk",
         },
       },
       contact: {
-        header: "CONTACT",
+        header: "Contact",
         email: {
           adress: "damiankrawczyk23@gmail.com",
           text: "If you want contact with me , please Tap and sent me email",
         },
         phone: { number: "07538865743" },
-        text: "Tap phone to contact me",
+        text:
+          "If You want to contact me please senet me message or simple sent an email",
+        placeholder: {
+          input: "Your email",
+          textarea: "What can I do for You ?",
+          button: "Send",
+        },
       },
       location: {
         location: "google location",
         text: "Manchester , United Kingdom",
       },
       footer: {
-        header: "FOOTER",
+        header: "Damiankrawczyk.co.uk",
         copy: "Copyright",
         date: "",
-        link: "damiankrawczyk23@gmail.com",
+        link: "http://www.damiankrawczyk.co.uk",
       },
     };
   }
@@ -93,8 +95,8 @@ class Container extends React.Component {
         <Aboutme aboutme={this.state.aboutme}></Aboutme>
         <Skills skills={this.state.skills}></Skills>
         <Portfolio portfolio={this.state.portfolio}></Portfolio>
-        <Contact></Contact>
-        <Footer></Footer>
+        <Contact contact={this.state.contact}></Contact>
+        <Footer footer={this.state.footer}></Footer>
       </ContainerDiv>
     );
   }

@@ -6,13 +6,18 @@ const Button = styled.button`
   ${(props) => props.direction}: 20px;
 
   padding: 10px;
-  background: white;
-  opacity: 0.5;
+  background: none;
+  opacity: 0.2;
   border: none;
   font-size: 2rem;
+  border-radius: 50%;
 
   &:focus {
     outline: 0;
+  }
+
+  &:hober {
+    opacity: 0.4;
   }
 `;
 

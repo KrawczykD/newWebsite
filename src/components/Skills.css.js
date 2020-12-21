@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 const SkillsDiv = styled.div`
-  min-height: 100vh;
+
   & > div > p {
     display: flex;
     margin: 0;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: ${(props) => props.theme.mainColor};
     justify-content: flex-end;
   }
 
   & > div > .skillsList {
+    margin 50px 0;
     padding: 20px;
     display: flex;
     flex-flow: row wrap;
