@@ -85,6 +85,58 @@ class Container extends React.Component {
         date: "",
         link: "http://www.damiankrawczyk.co.uk",
       },
+
+      cv: {
+        eduation: {
+          0: {
+            school: "Udemy",
+            level: "Udemy student",
+            date: "2016 - Current",
+            qualfication: "Web Developer , React , JavaScript",
+          },
+          1: {
+            school: "Business advice direct limited",
+            level: "Functional Skills qualfication",
+            date: "2018",
+            qualfication: "Mathematics at Level 2",
+          },
+          2: {
+            school: "Vocational secondary school",
+            level: "BTEC national certificate RQF Level 3",
+            date: "2006 - 2009",
+            qualfication:
+              "Certificate of completion from a vocational secondary IT school",
+          },
+          3: {
+            school: "Vocational secondary school",
+            level: "GCE advance A level",
+            date: "2006 - 2009",
+            qualfication: "Certificate of maturity",
+          },
+        },
+        experience: {
+          0: {
+            company: "Media-Saturn-Holding ",
+            title: "Sales specialist in entertainment department",
+            date: "2009 - 2015",
+            description:
+              "My scope of duties as a sale specialist was professional customer service, goods acounting and taking care of the exposition.",
+          },
+          1: {
+            company: "Landis + Gyr",
+            title: "Customer return engineer",
+            date: "2015 - 2020",
+            description:
+              "As a customer return engineer i was responsible for electric meters return process. I was leading electric refurb team. My scope of duties was spervised repair process, soving technical issuses, contact with clients, creating and checking reports. I was choosen for learn and re-create existing process, and as a part of bigger team i involved in restructurisation department. I use my programming skills for develope few application. One of the software i created was store application for manage pallets in werhouse and application for generate reports.",
+          },
+          2: {
+            company: "2016 - current",
+            title: "MERN Full stack developer",
+            description:
+              "I work as a full stack developer with using M.E.R.N stack. So fare I developed few private projects and few comercial ones. To see my portfolio please go to www.damiankrawczyk.co.uk . On my website you can find more about me and my projects.",
+          },
+        },
+      },
     };
   }
 
